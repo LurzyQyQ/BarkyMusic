@@ -19,9 +19,9 @@ $ npm run serve
 
 https://github.com/Binaryify/NeteaseCloudMusicApi
 
-# 功能
+## 功能
 
-## 1、登录
+1、登录
 1、登录
 1、登录
 1、登录
