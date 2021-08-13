@@ -7,12 +7,11 @@
 $ git https://github.com/LurzyQyQ/barkymusic_player_vue.git
 ```
 $ npm install
-### 或者
 ```
-$ git clone https://github.com/LurzyQyQ/barkymusic_player_vue.git
+### 运行
 ```
-$ npm install
-
+$ npm run serve
+```
 ### API文档请参考:
 ```
 https://github.com/Binaryify/NeteaseCloudMusicApi
