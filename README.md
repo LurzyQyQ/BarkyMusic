@@ -48,3 +48,12 @@ https://github.com/Binaryify/NeteaseCloudMusicApi
 26. 综合搜索  
 27. 单曲搜索   
 
+## 使用到的技术点
+
+vue-router路由  
+axios进行网络请求    
+vant indicator(加载提示框)  
+vant Swipe轮播图  
+vant lazy-load (图片懒加载)  
+vant loadMore（上拉加载更多数据）  
+组件间通信（添加商品至购物车时，购物车数量要改变）  
