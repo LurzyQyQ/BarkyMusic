@@ -21,7 +21,7 @@ https://github.com/Binaryify/NeteaseCloudMusicApi
 
 ## 功能
 
-1、登录  
+1.登录  
 ![image](https://user-images.githubusercontent.com/84315189/129353476-3171845a-6bdb-4043-9250-87880f9b5022.png)
 
   1. 手机登录
