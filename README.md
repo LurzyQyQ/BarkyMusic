@@ -1,15 +1,15 @@
 # barkymusic
 
-##环境要求
-##需要 NodeJS 8.12+ 环境
+###环境要求
+###需要 NodeJS 8.12+ 环境
 
-##安装
-$ git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git 
+##下载
+$ git https://github.com/LurzyQyQ/barkymusic_player_vue.git
 
 $ npm install
-##或者
+###或者
 
-$ git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
+$ git clone https://github.com/LurzyQyQ/barkymusic_player_vue.git
 
 $ npm install
 
