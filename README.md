@@ -1,19 +1,17 @@
 # barkymusic
 
-## 安装依赖包
-```
-npm install
-```
+##环境要求
+##需要 NodeJS 8.12+ 环境
 
-### 运行项目
-```
-npm run serve
-```
+##安装
+$ git clone git@github.com:Binaryify/NeteaseCloudMusicApi.git 
 
-### 打包
-```
-npm run build
-```
+$ npm install
+##或者
+
+$ git clone https://github.com/Binaryify/NeteaseCloudMusicApi.git
+
+$ npm install
 
 ### API文档请参考:
 ```
