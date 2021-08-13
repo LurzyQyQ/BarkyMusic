@@ -17,7 +17,7 @@ $ npm run serve
 
 ### API文档请参考:
 ```
-https://github.com/Binaryify/NeteaseCloudMusicApi
+<a href="https://github.com/Binaryify/NeteaseCloudMusicApi"></a>
 ```
 
 ### 
