@@ -17,7 +17,7 @@ $ npm run serve
 
 ### 项目API
 
-[(https://github.com/Binaryify/NeteaseCloudMusicApi)]
+(https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 
 ### 
