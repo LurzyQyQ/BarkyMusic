@@ -15,7 +15,7 @@ $ npm install
 $ npm run serve
 ```
 
-### 项目API
+### API文档
 
 https://github.com/Binaryify/NeteaseCloudMusicApi
 
