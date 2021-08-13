@@ -19,9 +19,3 @@ $ npm run serve
 
 https://github.com/Binaryify/NeteaseCloudMusicApi
 
-
-### 
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-
