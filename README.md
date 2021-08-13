@@ -15,8 +15,12 @@ npm run serve
 npm run build
 ```
 
+```
+### API文档请参考: https://github.com/Binaryify/NeteaseCloudMusicApi
+```
+
 ### 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### API文档请参考: https://github.com/Binaryify/NeteaseCloudMusicApi
+
