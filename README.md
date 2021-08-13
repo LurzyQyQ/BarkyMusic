@@ -5,9 +5,9 @@
 ### 下载
 ```
 $ git https://github.com/LurzyQyQ/barkymusic_player_vue.git
-```
-$ npm install
 
+$ npm install
+```
 ### 运行
 
 $ npm run serve
