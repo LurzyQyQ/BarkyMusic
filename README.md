@@ -10,12 +10,12 @@ npm install
 npm run serve
 ```
 
-### 运行项目
+### 打包
 ```
 npm run build
 ```
 
-### 打包
+### 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
