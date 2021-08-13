@@ -50,10 +50,43 @@ https://github.com/Binaryify/NeteaseCloudMusicApi
 
 ## 使用到的技术点
 
-vue-router路由  
-axios进行网络请求    
-vant indicator(加载提示框)  
-vant Swipe轮播图  
-vant lazy-load (图片懒加载)  
-vant loadMore（上拉加载更多数据）  
-组件间通信（添加商品至购物车时，购物车数量要改变）  
+1. vue-router路由  
+2. vue-cli脚手架
+3. vue路由守卫
+4. vuex
+5. axios进行网络请求    
+6. vant Loading (加载提示)  
+7. vant Swipe轮播图   
+8. 组件间通信（添加商品至购物车时，购物车数量要改变）  
+
+## 项目打包
+
+$ npm run build即可完成打包
+
+### 打包时要考虑的问题
+
+dist文件夹太大？
+1. 代码压缩：  
+
+使用webpack中的uglifyjs-webpack-plugin插件(1.6M->852kb)
+vant按需引入（852kb－>459kb)  
+
+2. 提取css插件，设置名称  
+
+使用插件extract-text-webpack-plugin提取css插件，设置名称new ExtractTextPlugin("[contenthash].css"),
+
+3. build.js文件拆分：提取第三方包
+
+通过插件CommonsChunkPlugin处理入口
+// 再加一个入口
+vendors:['vue','vue-router','axios','vue-preview'],
+//出口
+filename:'[chunkhash].js'
+plugins配置：
+// 提取公共模块
+new webpack.optimize.CommonsChunkPlugin({
+    // 清单，用来记录使用者和第三方的关系
+    names:['vendors','manifest']
+}),
+
+4. 路由懒加载，用的时候才去加载（节省流量）
