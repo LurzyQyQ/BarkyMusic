@@ -19,4 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### 
+### API文档请参考: https://github.com/Binaryify/NeteaseCloudMusicApi
